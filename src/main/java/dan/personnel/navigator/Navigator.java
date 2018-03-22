@@ -8,5 +8,4 @@ import dan.personnel.TankCrew;
 public interface Navigator extends TankCrew<NavigationInstruction, NavigatorUpdate> {
 
     void plotRoute(NavigationRequest... routePoints);
-    void currentNavigationStatus(NavigatorUpdate navStatus);
 }
